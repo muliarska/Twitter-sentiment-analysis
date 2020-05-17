@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Emotions</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/iconic/css/material-design-iconic-font.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animate/animate.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/css-hamburgers/hamburgers.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animsition/css/animsition.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/select2/select2.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/util.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,900,700,600,200" rel="stylesheet">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,900,700,600,200'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css'>
+
+      <link rel="stylesheet"  href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('../static/images/bg-01.jpg');">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" method="post" action="/result">
+					<span class="login100-form-logo">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+<!--						<i class="fa fa-twitter" aria-hidden="true"></i>-->
+					</span>
+
+					<span class="login100-form-title p-b-34 p-t-27">
+						<font size="+2">Choose an emotion</font>
+					</span>
+
+
+<!--					<select name="emotions" style="width: 130px;font-size: 30px;background: rgb(145, 82, 248);color: white;">-->
+						<select name="emotions" style="width: 130px;font-size: 30px;background: rgb(145, 82, 248);color: white;">
+						  <option value="anger">anger</option>
+						  <option value="joy">joy</option>
+						  <option value="sadness">sadness</option>
+						  <option value="fear">fear</option>
+						  <option value="surprise">surprise</option>
+						  <option value="trust">trust</option>
+						  <option value="anticipation">anticipation</option>
+						  <option value="disgust">disgust</option>
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" type="submit">
+							Choose!
+						</button>
+					</div>
+
+
+
+
+
+
+<!--					<div class="wrapper typo">My emotion is-->
+<!--  <div class="list"><span class="placeholder">select</span>-->
+<!--    <ul class="list__ul">-->
+<!--      <li><a href="">select</a></li>-->
+<!--      <li><a href="">anger</a></li>-->
+<!--      <li><a href="">joy</a></li>-->
+<!--      <li><a href="">fear</a></li>-->
+<!--      <li><a href="">sadness</a></li>-->
+<!--      <li><a href="">disgust</a></li>-->
+<!--    </ul>-->
+<!--  </div>-->
+
+<!--</div>-->
+
+
+
+
+
+<!--                    <div class="container-login100-form-btn-group">-->
+<!--                    <div class="container-login100-form-btn">-->
+
+
+
+
+<!--                <button name = "anger" class="login100-form-btn" type="submit">-->
+<!--							anger-->
+<!--						</button>-->
+<!--                        </div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "joy" class="login100-form-btn" type="submit">-->
+<!--							joy-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "fear" class="login100-form-btn" type="submit">-->
+<!--							fear-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "disgust" class="login100-form-btn" type="submit">-->
+<!--							disgust-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "sadness" class="login100-form-btn" type="submit">-->
+<!--							sadness-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "surprise" class="login100-form-btn" type="submit">-->
+<!--							surprise-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "anticipation" class="login100-form-btn" type="submit">-->
+<!--							anticipation-->
+<!--						</button>-->
+<!--						</div>-->
+<!--						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+<!--                        <div class="container-login100-form-btn">-->
+<!--                        <button name = "trust" class="login100-form-btn" type="submit">-->
+<!--							trust-->
+<!--						</button>-->
+<!--						</div>-->
+
+<!--					</div>-->
+<!--</div>-->
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+	  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/animsition/js/animsition.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js') }}"></script>
+	<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/select2/select2.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/daterangepicker/moment.js') }}"></script>
+	<script src="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='vendor/countdowntime/countdowntime.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
