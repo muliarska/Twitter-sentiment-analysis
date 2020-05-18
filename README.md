@@ -28,6 +28,10 @@ More information about the project is provided on its WIKI page.
 
 ## Contents
 
+In the directory _main_, there is a file _main.py_ to run a program. The directory _modules_ are divided into separate directories that are responsible for different parts of the project.
+
+Below you can find a more detailed description of the directories and links to them.
+
 ### Main module to run a program
 [main.py](https://github.com/muliarska/homeworks_ucu/blob/master/main/main.py)
 
@@ -55,6 +59,10 @@ More information about the project is provided on its WIKI page.
 
 [Example of main program processes](https://github.com/muliarska/homeworks_ucu/tree/master/examples/process_module)
 
+[ADT diagrams](https://github.com/muliarska/homeworks_ucu/tree/master/adt_diagrams)
+
+[Screenshots of usage examples](https://github.com/muliarska/homeworks_ucu/tree/master/usage_examples)
+
 ### Wiki
 [Topic of the project](https://github.com/muliarska/homeworks_ucu/wiki/%D0%A2%D0%B5%D0%BC%D0%B0-%D1%86%D0%B8%D0%BA%D0%BB%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%96%D1%85-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D1%8C)
 
@@ -76,17 +84,17 @@ More information about the project is provided on its WIKI page.
 
 Install nltk, plotly, flask, dash
 
-pip install nltk
+`pip install nltk`
 
-pip install plotly
+`pip install plotly`
 
-pip install flask
+`pip install flask`
 
-pip install dash==0.31.1  (The core dash backend)
+`pip install dash==0.31.1`  (The core dash backend)
 
-pip install dash-html-components==0.13.2  (HTML components)
+`pip install dash-html-components==0.13.2`  (HTML components)
 
-pip install dash-core-components==0.38.1  (Supercharged components)
+`pip install dash-core-components==0.38.1`  (Supercharged components)
 
 
 ## Usage example
@@ -112,8 +120,6 @@ Input data is generated using Twitter API. Also, the project uses database NRC-E
 Resource from which this database is taken: http://www.saifmohammad.com/WebPages/AffectIntensity.htm
 
 The output data is statistics that are visualized using pie and bar charts.
-
-## Program structure
 
 ## Credits
 ### Yana Muliarska, Computer Science student in Ukrainian Catholic University, 2020
