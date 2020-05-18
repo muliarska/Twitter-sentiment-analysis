@@ -1,6 +1,8 @@
 # Project name: Emotions Detector
+Web application: http://muliarska.pythonanywhere.com/
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
+
 
 ## Purpose
 Quarantine has now begun around the world due to the spread of Coronavirus. People sit at home and hardly go outside.
@@ -44,6 +46,7 @@ pip install dash-core-components==0.38.1  (Supercharged components)
 
 
 ## Usage example
+![]()
 
 ## Input/Output data
 
