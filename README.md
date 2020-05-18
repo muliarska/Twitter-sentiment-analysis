@@ -35,6 +35,10 @@ This is not all about the input data's capabilities, so the functionality of the
 
 More information about the project is provided on its WIKI page.
 
+__Example of statistics:__
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+
 ## Contents
 
 In the directory _main_, there is a file _main.py_ to run a program. The directory _modules_ are divided into separate directories that are responsible for different parts of the project.
