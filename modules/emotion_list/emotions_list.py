@@ -1,7 +1,7 @@
 """Representing EmotionsList ADT"""
 from nltk.classify import NaiveBayesClassifier
-from stopwords import STOPWORDS
-from data_structures.arrays import DynamicArray
+from modules.emotion_list.stopwords import STOPWORDS
+from modules.data_structures.arrays import DynamicArray
 
 
 class EmotionsList:
