@@ -1,7 +1,18 @@
 # Project name: Emotions Detector
-[Click here to see the web application](http://muliarska.pythonanywhere.com/)
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
+
+[![Made with](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)]
+
+## Table of content
+
+- [Purpose](#Purpose)
+- [Description](#Description)
+- [Contents](#Contents)
+- [Installation](#Installation)
+- [Usage example](#Usage example)
+- [Input/Output data](#Input/Output data)
+- [Credits](#Credits)
 
 
 ## Purpose
@@ -80,7 +91,14 @@ Below you can find a more detailed description of the directories and links to t
 
 
 
-## Prerequisites
+## Installation
+
+* Clone
+
+Clone this repository to your local machine using 
+`git clone https://github.com/muliarska/homeworks_ucu.git`
+
+* Prerequisites
 
 Install nltk, plotly, flask, dash
 
