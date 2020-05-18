@@ -9,7 +9,7 @@
 - [Contents](#contents)
 - [Installation](#installation)
 - [Usage examples](#usage)
-- [Input/Output data](#input/Output)
+- [Input/Output data](#data)
 - [Credits](#credits)
 
 
@@ -113,7 +113,7 @@ Install nltk, plotly, flask, dash
 `pip install dash-core-components==0.38.1`  (Supercharged components)
 
 
-## Usage examples
+## Usage
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen1.PNG)
 
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen2.PNG)
@@ -130,7 +130,7 @@ Install nltk, plotly, flask, dash
 
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen7.PNG)
 
-## Input/Output data
+## Data
 
 Input data is generated using Twitter API. Also, the project uses database NRC-Emotion-Intensity-Lexicon-v1.
 Resource from which this database is taken: http://www.saifmohammad.com/WebPages/AffectIntensity.htm
