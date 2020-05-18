@@ -137,7 +137,7 @@ Install nltk, plotly, flask, dash
 ## Data
 
 Input data is generated using Twitter API. Also, the project uses database NRC-Emotion-Intensity-Lexicon-v1.
-Resource from which this database is taken: http://www.saifmohammad.com/WebPages/AffectIntensity.htm
+[Resource from which this database is taken](http://www.saifmohammad.com/WebPages/AffectIntensity.htm)
 
 The output data is statistics that are visualized using pie and bar charts.
 
