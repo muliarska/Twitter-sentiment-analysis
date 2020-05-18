@@ -1,5 +1,5 @@
 # Project name: Emotions Detector
-Web application: http://muliarska.pythonanywhere.com/
+
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
 
@@ -46,9 +46,28 @@ pip install dash-core-components==0.38.1  (Supercharged components)
 
 
 ## Usage example
-![]()
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen1.PNG)
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen2.PNG)
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen3.PNG)
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen4.PNG)
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen6.PNG)
+
+### Another statistic for the same user:
+
+![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen7.PNG)
 
 ## Input/Output data
+
+Input data is generated using Twitter API. Also, the project uses database NRC-Emotion-Intensity-Lexicon-v1.
+Resource from which this database is taken: http://www.saifmohammad.com/WebPages/AffectIntensity.htm
+
+The output data is statistics that are visualized using pie and bar charts.
 
 ## Program structure
 
