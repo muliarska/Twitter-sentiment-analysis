@@ -2,17 +2,15 @@
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
 
-[![Made with](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)]
-
 ## Table of content
 
-- [Purpose](#Purpose)
-- [Description](#Description)
-- [Contents](#Contents)
-- [Installation](#Installation)
-- [Usage example](#Usage example)
-- [Input/Output data](#Input/Output data)
-- [Credits](#Credits)
+- [Purpose](#purpose)
+- [Description](#description)
+- [Contents](#contents)
+- [Installation](#installation)
+- [Usage examples](#usage)
+- [Input/Output data](#input/Output)
+- [Credits](#credits)
 
 
 ## Purpose
@@ -115,7 +113,7 @@ Install nltk, plotly, flask, dash
 `pip install dash-core-components==0.38.1`  (Supercharged components)
 
 
-## Usage example
+## Usage examples
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen1.PNG)
 
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen2.PNG)
