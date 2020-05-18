@@ -1,7 +1,7 @@
 """Representing EmotionsList ADT"""
 from nltk.classify import NaiveBayesClassifier
-from modules.emotion_list.stopwords import STOPWORDS
-from modules.data_structures.arrays import DynamicArray
+from stopwords import STOPWORDS
+from data_structures.arrays import DynamicArray
 
 
 class EmotionsList:
@@ -17,7 +17,7 @@ class EmotionsList:
         self.tweet = None
         self.emotions = DynamicArray()
         self.probabilities = DynamicArray()
-        self.classifier = self._train_model()
+        self._classifier = self._train_model()
 
     def set_tweet(self, tweet):
         """
@@ -76,7 +76,7 @@ class EmotionsList:
         Returns a main emotion of the tweet and
         adds to the array
         """
-        label = self.classifier.classify(self._tweets_features(self.tweet))
+        label = self._classifier.classify(self._tweets_features(self.tweet))
         self.emotions.append(label)
         return label
 
@@ -87,7 +87,7 @@ class EmotionsList:
         and their probabilities and adds to the array
         """
         emotions = DynamicArray()
-        probabilities = self.classifier.prob_classify(self._tweets_features(self.tweet))
+        probabilities = self._classifier.prob_classify(self._tweets_features(self.tweet))
         for sample in probabilities.samples():
             emotions.append((sample, probabilities.prob(sample)))
         self.probabilities.append(emotions)
