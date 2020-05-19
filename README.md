@@ -2,6 +2,8 @@
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
 
+__Link to the web application: http://muliarska.pythonanywhere.com/__
+
 ## Table of content
 
 - [Purpose](#purpose)
