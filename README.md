@@ -122,6 +122,8 @@ Install nltk, plotly, flask, dash
 
 `pip install dash-core-components==0.38.1`  (Supercharged components)
 
+Also you have to enter your Twitter API keys in files [1. hidden.py](https://github.com/muliarska/homeworks_ucu/blob/master/modules/twitter_list_adt/hidden.py) [2. hidden.py](https://github.com/muliarska/homeworks_ucu/blob/master/examples/api_example/hidden.py)
+
 
 ## Usage
 ![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen1.PNG)
@@ -148,7 +150,17 @@ Input data is generated using Twitter API. Also, the project uses database NRC-E
 The output data is statistics that are visualized using pie and bar charts.
 
 ## Conributing
-Currently, I am a sole contributor of this repository.
+Please refer to project's style and contribution guidelines for submitting patches and additions. In general, the "fork-and-pull" Git workflow.
+
+1.Fork the repo on GitHub
+
+2.Clone the project to your own machine
+
+3.Commit changes to your own branch
+
+4.Push your work back up to your fork
+
+5.Submit a Pull request so that we can review your changes
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/muliarska/homeworks_ucu/blob/master/LICENSE) for more information.
