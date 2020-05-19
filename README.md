@@ -10,6 +10,8 @@
 - [Installation](#installation)
 - [Usage examples](#usage)
 - [Input/Output data](#data)
+- [Conributing](#conributing)
+- [License](#license)
 - [Credits](#credits)
 
 
@@ -37,7 +39,7 @@ More information about the project is provided on its WIKI page.
 
 __Example of statistics:__
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen5.PNG)
 
 ## Contents
 
@@ -118,21 +120,21 @@ Install nltk, plotly, flask, dash
 
 
 ## Usage
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen1.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen1.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen2.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen2.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen3.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen3.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen4.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen4.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen5.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen6.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen6.PNG)
 
 ### Another statistic for the same user:
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen7.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen7.PNG)
 
 ## Data
 
@@ -140,6 +142,12 @@ Input data is generated using Twitter API. Also, the project uses database NRC-E
 [Resource from which this database is taken](http://www.saifmohammad.com/WebPages/AffectIntensity.htm)
 
 The output data is statistics that are visualized using pie and bar charts.
+
+## Conributing
+Currently, I am a sole contributor of this repository.
+
+## License
+Distributed under the MIT License. See [LICENSE](https://github.com/muliarska/homeworks_ucu/blob/master/LICENSE) for more information.
 
 ## Credits
 ### Yana Muliarska, Computer Science student in Ukrainian Catholic University, 2020
