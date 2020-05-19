@@ -4,6 +4,8 @@
 
 __Link to the web application: http://muliarska.pythonanywhere.com/__
 
+__[Video Preview](https://github.com/muliarska/homeworks_ucu/blob/master/video_preview.avi)__
+
 ## Table of content
 
 - [Purpose](#purpose)
