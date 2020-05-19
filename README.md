@@ -74,9 +74,9 @@ Below you can find a more detailed description of the directories and links to t
 
 [Example of main program processes](https://github.com/muliarska/homeworks_ucu/tree/master/examples/process_module)
 
-[ADT diagrams](https://github.com/muliarska/homeworks_ucu/tree/master/adt_diagrams)
+[ADT diagrams](https://github.com/muliarska/homeworks_ucu/tree/master/examples/adt_diagrams)
 
-[Screenshots of usage examples](https://github.com/muliarska/homeworks_ucu/tree/master/usage_examples)
+[Screenshots of usage examples](https://github.com/muliarska/homeworks_ucu/tree/master/examples/usage_examples)
 
 ### Wiki
 [Topic of the project](https://github.com/muliarska/homeworks_ucu/wiki/%D0%A2%D0%B5%D0%BC%D0%B0-%D1%86%D0%B8%D0%BA%D0%BB%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%96%D1%85-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D1%8C)
