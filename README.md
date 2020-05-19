@@ -2,6 +2,8 @@
 
 ## Topic: Setting the mood and emotional state of a Twitter user.
 
+__Link to the web application: http://muliarska.pythonanywhere.com/__
+
 ## Table of content
 
 - [Purpose](#purpose)
@@ -10,6 +12,8 @@
 - [Installation](#installation)
 - [Usage examples](#usage)
 - [Input/Output data](#data)
+- [Conributing](#conributing)
+- [License](#license)
 - [Credits](#credits)
 
 
@@ -37,7 +41,7 @@ More information about the project is provided on its WIKI page.
 
 __Example of statistics:__
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen5.PNG)
 
 ## Contents
 
@@ -72,9 +76,9 @@ Below you can find a more detailed description of the directories and links to t
 
 [Example of main program processes](https://github.com/muliarska/homeworks_ucu/tree/master/examples/process_module)
 
-[ADT diagrams](https://github.com/muliarska/homeworks_ucu/tree/master/adt_diagrams)
+[ADT diagrams](https://github.com/muliarska/homeworks_ucu/tree/master/examples/adt_diagrams)
 
-[Screenshots of usage examples](https://github.com/muliarska/homeworks_ucu/tree/master/usage_examples)
+[Screenshots of usage examples](https://github.com/muliarska/homeworks_ucu/tree/master/examples/usage_examples)
 
 ### Wiki
 [Topic of the project](https://github.com/muliarska/homeworks_ucu/wiki/%D0%A2%D0%B5%D0%BC%D0%B0-%D1%86%D0%B8%D0%BA%D0%BB%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%96%D1%85-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D1%8C)
@@ -118,21 +122,21 @@ Install nltk, plotly, flask, dash
 
 
 ## Usage
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen1.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen1.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen2.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen2.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen3.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen3.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen4.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen4.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen5.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen5.PNG)
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen6.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen6.PNG)
 
 ### Another statistic for the same user:
 
-![](https://github.com/muliarska/homeworks_ucu/blob/master/usage_examples/screen7.PNG)
+![](https://github.com/muliarska/homeworks_ucu/blob/master/examples/usage_examples/screen7.PNG)
 
 ## Data
 
@@ -140,6 +144,12 @@ Input data is generated using Twitter API. Also, the project uses database NRC-E
 [Resource from which this database is taken](http://www.saifmohammad.com/WebPages/AffectIntensity.htm)
 
 The output data is statistics that are visualized using pie and bar charts.
+
+## Conributing
+Currently, I am a sole contributor of this repository.
+
+## License
+Distributed under the MIT License. See [LICENSE](https://github.com/muliarska/homeworks_ucu/blob/master/LICENSE) for more information.
 
 ## Credits
 ### Yana Muliarska, Computer Science student in Ukrainian Catholic University, 2020
